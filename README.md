@@ -1,4 +1,16 @@
 # isogramma
+-Determina se una parola o una frase è un isogramma.
+
+Per come lo intendiamo in questo esercizio, un isogramma è una parola o una frase che non ha lettere ripetute.
+Sono ammessi spazi e segni di punteggiatura ripetuti.
+
+Esempi di isogrammi:
+
+- lumberjacks
+- background
+- downstream
+- six-year-old
+
 -Il codice inizia con la creazione di un array di interi "Alphabet" con 26 elementi, uno per ogni lettera dell'alfabeto inglese. Questo array viene utilizzato per tenere traccia delle lettere che sono state incontrate nella stringa.
 ```c#
 public static class Isogramma
